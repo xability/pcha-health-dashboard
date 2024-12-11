@@ -2,4 +2,4 @@
 
 To run the app,
 
-```shiny run app-express.py```
+```shiny run app.py```
