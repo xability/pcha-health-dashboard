@@ -63,7 +63,7 @@ def server(inp, _, __):
             (df["parsed_date"] >= start_date) &
             (df["parsed_date"] <= end_date)
         ]
-        
+
         fig, ax = plt.subplots(figsize=(8, 6))
         s_plot = sns.barplot(data=user_data, x="date", y="distanceWalkingRunning", ax=ax)
         ax.set_title("Distance Covered Over Time")
