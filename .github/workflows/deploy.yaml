@@ -40,4 +40,4 @@ jobs:
         run: |
           rsconnect deploy shiny Dashboard \
             --name ashwathkris \
-            --title pcha-test
+            --title pcha-dashboard

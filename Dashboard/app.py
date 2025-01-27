@@ -27,7 +27,7 @@ users = df["user_id"].unique().tolist()
 
 # Define the UI
 app_ui = ui.page_fluid(
-    ui.h2("PCHA Dashboard"),
+    ui.h2("PCHA Health Dashboard"),
     ui.page_sidebar(  
     ui.sidebar(ui.input_select("user_id", label="Select User", choices=users), 
             #    ui.input_slider("start_date_slider", "Start Date", min_date, max_date, min_date),
