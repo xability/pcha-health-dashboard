@@ -40,4 +40,4 @@ jobs:
         run: |
           rsconnect deploy shiny Dashboard \
             --name xabilitylab \
-            --title pcha-dashboard
+            --title pcha-health-dashboard
