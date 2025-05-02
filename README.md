@@ -35,6 +35,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
+cd Dashboard
 pip install -r requirements.txt
 
 # Run the app
@@ -44,7 +45,3 @@ shiny run --reload app.py
 ## Contributing
 
 We welcome improvements in UI, accessibility, or visualization logic. Please see the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more details.
-
-## License
-
-MIT License
