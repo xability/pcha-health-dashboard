@@ -55,6 +55,8 @@ Deployment is handled through [shinyapps.io](https://www.shinyapps.io/)
 1. Ensure the app runs correctly locally
 2. Deploy using `rsconnect` with Python support or push updates to the hosting environment
 
+Note: The free version of Shiny only supports up to 5 deployments, because of which the workflow might fail
+
 ---
 
 ## Reporting Issues
