@@ -9,15 +9,15 @@ Thank you for your interest in contributing to the **PCHA Dashboard**, a PyShiny
 ### 1. Fork and Clone
 
 ```bash
-git clone https://github.com/[your-username]/pcha-dashboard.git
-cd pcha-dashboard
+git clone https://github.com/xability/pcha-health-dashboard.git
+cd Dashboard
 ```
 
 ### 2. Set Up Environment
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -50,7 +50,7 @@ We aim to provide full access to users who are blind or have low vision. Please:
 
 ## Deployment
 
-Deployment is handled through [shinyapps.io](https://www.shinyapps.io/). If you are a maintainer:
+Deployment is handled through [shinyapps.io](https://www.shinyapps.io/)
 
 1. Ensure the app runs correctly locally
 2. Deploy using `rsconnect` with Python support or push updates to the hosting environment
