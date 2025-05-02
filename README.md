@@ -42,6 +42,15 @@ pip install -r requirements.txt
 shiny run --reload app.py
 ```
 
+## Deployment
+
+Deployment is fully automated using GitHub Actions.  
+Whenever changes are pushed to the repository, the `deploy.yaml` workflow is triggered, and the latest version of the app is deployed to [shinyapps.io](https://www.shinyapps.io/). Log in to shinyapps.io using the organization credentials to manage deployments and application settings.
+
+No manual deployment steps are required.
+
+You can find the workflow file at `.github/workflows/deploy.yaml`.
+
 ## Contributing
 
 We welcome improvements in UI, accessibility, or visualization logic. Please see the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more details.
